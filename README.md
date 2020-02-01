@@ -14,6 +14,7 @@
 - 默认编译 **Ctrl Alt B**
 - 正向查找 **Ctrl Alt J**
 - 预览PDF **Ctrl Alt V**
+- 清理编译中间文件 **Ctrl Alt C**
 
 ### SumatraPDF常用快捷键
 - 跳转到页 **Ctrl G**
