@@ -1,3 +1,6 @@
+# 系统中文字体
+
+```
 E:/Applications/TeXLive/2019/texmf-dist/fonts/opentype/public/fandol/FandolFang-Regular.otf: FandolFang,FandolFang R:style=Regular
 C:/WINDOWS/fonts/STSONG.TTF: STSong,华文宋体:style=Regular
 C:/WINDOWS/fonts/FZSTK.TTF: FZShuTi,方正舒体:style=Regular
@@ -35,3 +38,4 @@ C:/WINDOWS/fonts/msyhbd.ttc: Microsoft YaHei UI:style=Bold,Negreta,tučné,fed,F
 C:/WINDOWS/fonts/msyhbd.ttc: Microsoft YaHei,微软雅黑:style=Bold,Negreta,tučné,fed,Fett,Έντονα,Negrita,Lihavoitu,Gras,Félkövér,Grassetto,Vet,Halvfet,Pogrubiony,Negrito,Полужирный,Fet,Kalın,Krepko,Lodia
 C:/WINDOWS/fonts/STFANGSO.TTF: STFangsong,华文仿宋:style=Regular
 E:/Applications/TeXLive/2019/texmf-dist/fonts/opentype/public/fandol/FandolSong-Bold.otf: FandolSong:style=Bold
+```

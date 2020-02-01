@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.1)  1 FEB 2020 19:17
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.1)  1 FEB 2020 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -387,7 +387,8 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 
 ))) (e:/Applications/TeXLive/2019/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2019/04/07 v2.4.15 Configuration file (CTEX)
-) (./HelloWorld.aux)
+)
+No file HelloWorld.aux.
 \openout1 = `HelloWorld.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -406,7 +407,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
- ABD: EverySelectfont initializing macros
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 4.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -475,8 +476,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] (./HelloWorld.aux) ) 
 Here is how much of TeX's memory you used:
- 15771 strings out of 494857
- 373916 string characters out of 6175185
+ 15769 strings out of 494857
+ 373886 string characters out of 6175185
  447062 words of memory out of 5000000
  19627 multiletter control sequences out of 15000+600000
  533488 words of font info for 44 fonts, out of 8000000 for 9000

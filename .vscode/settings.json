@@ -1,0 +1,77 @@
+{
+    "latex-workshop.showContextMenu": true, //右键菜单
+    "latex-workshop.intellisense.package.enabled": true, //根据加载的包，自动完成命令或包  
+    "latex-workshop.latex.autoBuild.run": "never", //禁止保存文件时自动build  
+    // tools
+    "latex-workshop.latex.tools": [{
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    // recipes
+    "latex-workshop.latex.recipes": [{
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "xe->bib->xe->xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        }
+    ],
+    // 设置预览方式
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.view.pdf.ref.viewer": "external",
+    // 设置外部PDF预览器
+    "latex-workshop.view.pdf.external.viewer.command": "C:/Program Files/SumatraPDF/SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "%PDF%"
+    ],
+    "latex-workshop.view.pdf.external.synctex.command": "C:/Program Files/SumatraPDF/SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "-forward-search",
+        "%TEX%",
+        "%LINE%",
+        "-reuse-instance",
+        "-inverse-search",
+        "D:/ProgramFiles/Coding/VSCode/code D:/ProgramFiles/Coding/VSCode/resources/app/out/cli.js -r -g %f:%l",
+        "%PDF%"
+    ],
+    "files.encoding": "utf8"
+}
