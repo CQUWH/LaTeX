@@ -73,5 +73,32 @@
         "D:/ProgramFiles/Coding/VSCode/code D:/ProgramFiles/Coding/VSCode/resources/app/out/cli.js -r -g %f:%l",
         "%PDF%"
     ],
-    "files.encoding": "utf8"
+    "files.encoding": "utf8",
+    // 指定Ctrl Alt C 清除的文件
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.snm",
+        "*.synctex(busy)",
+        "*.synctex.gz(busy)",
+        "*.nav",
+        "*.synctex.gz", // 清除索引
+        "*.pdf" // 清除 pdf
+    ]
 }
